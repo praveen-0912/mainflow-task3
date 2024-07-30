@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>MOTO GP ARAGON:EXPECTATION</h1>
+    
+    
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <span id="nameError" class="error"></span><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    
+    <div class="menu">
+        <button class="menu-button">Menu</button>
+        <div class="menu-content">
+            <a href="#">Full Bike Wash</a>
+            <a href="#">Safety inspection of frame and fork</a>
+            <a href="#">Brake inspection and adjustment</a>
+        </div>
+    </div>
+    
+    
+    <div id="dynamicContent">
+        <p>Initial content</p>
+    </div>
+    <button id="updateContentButton">Update Content</button>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
